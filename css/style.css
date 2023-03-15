@@ -1,0 +1,52 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    background:#AEC2B6 ;
+  
+}
+h1 {
+ text-align: center;
+}
+.btncontainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+.btnilter {
+   outline: none; 
+   border: none;
+   font-size: 1.5rem;
+   padding: 5px;
+   border-radius: 50px;
+   background: #A84448;
+}
+.btnilter:hover{
+    background:#3A1078 ;
+}
+.centersection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2rem;
+}
+.centersection img {
+    width: 200px;
+    height: 100%;
+    object-fit: cover;
+}
+.centersection h3 {
+    padding: 3px;
+    margin: 3px;
+}
+.centersection p {
+    max-width: 40ch;
+}
